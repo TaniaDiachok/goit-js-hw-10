@@ -1,0 +1,101 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.delay-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 30px;
+}
+
+.delay-input {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 328px;
+    height: 34px;
+    margin-top: 8px;
+    padding: 8px 16px;
+}
+
+.delay-input:hover {
+    border: 1px solid #000;
+}
+
+.delay-input:focus,
+.delay-input:active {
+    outline: none;
+    border: 1px solid #4e75ff;
+}
+
+.state-group {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    stroke: #808080;
+    padding: 14px 48px 8px 48px;
+}
+
+.state-group:hover,
+.state-group:focus-within {
+    border: 1px solid #000;
+    outline: none;
+}
+
+.legend {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.state-label {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2e2f42;
+    cursor: pointer;
+}
+
+.state-input {
+    border: 1px solid #757575;
+    border-radius: 14px;
+    width: 20px;
+    height: 20px;
+    margin: 6px 14px 6px 6px;
+    cursor: pointer;
+    
+}
+
+.btn {
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-top: 24px;
+}
